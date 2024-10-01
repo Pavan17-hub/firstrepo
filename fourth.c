@@ -10,7 +10,8 @@ int main (void) {
 printf("the matrix you entered is\n");
  for(i=0;i<ROW;i++){
     for(j=0;j<COL;j++)
- printf("the matrix is :",mat[i][j]);
+ printf(" %d ",mat[i][j]);
+ printf("\n");
  }
 printf("\n");
 return 0;
